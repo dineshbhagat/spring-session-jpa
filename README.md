@@ -1,6 +1,6 @@
 ### spring-session-jpa
 
-1. create tables from [file](src/main/resources/tables.sql)
+1. create tables from [file](src/main/resources/tables.sql), [Ref](https://github.com/spring-projects/spring-session/blob/master/spring-session-jdbc/src/main/resources/org/springframework/session/jdbc/schema-mysql.sql)
 2. update mysql properties in [application.yml](src/main/resources/application.yml) file
 3. run application `./gradlew clean build && && ./gradlew run`
 4. username:root and password:root to login
