@@ -1,0 +1,17 @@
+
+spring:
+  security:
+    user:
+      name: "root"
+      password: "root"
+  session:
+    timeout: 300
+    jdbc:
+      initialize-schema: always
+      table-name: SPRING_SESSION
+  datasource:
+    url: jdbc:mysql://localhost:3306/test
+    username: root
+    password:
+    tomcat:
+      data-source: com.zaxxer.hikari.HikariDataSource
